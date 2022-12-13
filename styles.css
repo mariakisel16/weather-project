@@ -30,6 +30,7 @@ li {
   margin: 20px auto;
   border-radius: 10px;
   max-width: 600px;
+  background-color: rgb(192, 185, 185);
 }
 
 .weather-icon {
