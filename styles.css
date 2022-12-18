@@ -1,5 +1,6 @@
 body {
   font-family: arial, sans-serif;
+  background-color: rgb(148, 209, 209);
 }
 
 h1 {
@@ -60,4 +61,16 @@ li {
 }
 footer {
   text-align: center;
+}
+.weather-forecast-max {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.767);
+}
+.weather-forecast-min {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.weather-forecast {
+  margin: 10px auto;
 }
