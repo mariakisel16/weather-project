@@ -110,7 +110,7 @@
 
         let days = ["Thu", "Fri", "Sat", "Sun"];
 
-        let forecastHTML = `<div class="row-row">`;
+        let forecastHTML = `<div class="row">`;
         forecast.forEach(function (forecastDay, index) {
           if (index < 6) {
             forecastHTML =
@@ -207,8 +207,12 @@
 
       let celsiusLink = document.querySelector("#celsius");
       celsiusLink.addEventListener("click", displayCelsius);
+
       let fahrenheitLink = document.querySelector("#fahrenheit");
       fahrenheitLink.addEventListener("click", displayFahrenhait);
+
+      search("New York");
+      displayForecast();
     </script>
   </body>
 </html>
